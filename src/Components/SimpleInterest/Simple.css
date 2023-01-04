@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom right ,#EFCCE4, #D9D3ED , #87BED8);
+}
+.title{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+       padding: 10px;
+}
+.title h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.title p{
+    font-size: 16px;
+}
+.simple-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+   
+        gap: 25px;
+
+    /* padding: 0 100px; */
+}
+.form-box{
+    /* flex: 40%; */
+    width: 480px;
+    height: 450px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* text-align: center; */
+   
+}
+.header{
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.head{
+    font-size: 35px;
+    text-align: center;
+}
+.link{
+    font-size: 14px;
+    text-align: center;
+}
+.input-box{
+    width: 100%;
+    padding:0 25px;
+}
+
+.input-field{
+   margin-bottom: 15px;
+   margin-top: 8px;
+ 
+}
+.lable{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.input-field input{
+    width: 100%;
+        border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    background-color: transparent;
+}
+
+.btn-box{
+    padding: 0 25px;
+    text-align: center;
+    margin-top: 25px;
+    
+    
+}
+.btn-box .submit , .btn-box .reset{
+    padding: 8px 15px;
+    font-size: 16px;
+    margin: 0 25px;
+    
+}
+.error{
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.graph-box{
+
+    display: flex;
+   align-items: center;
+   flex-wrap: wrap-reverse;
+    padding: 15px;
+    width: 700px;
+   height: 450px;
+    
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.result{
+    padding: 15px;
+}
+
+.result .res-title{
+    font-size: 25px;
+    color: rgb(65, 188, 65);
+    padding-bottom: 25px;
+}
+
+.result-amount, .result-intrest, .result-total{
+    padding-bottom: 15px;
+}
+.inner-res{
+padding-top: 10px ;
+}
+
+
